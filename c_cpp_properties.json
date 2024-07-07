@@ -2,9 +2,10 @@
     "configurations": [
         {
             "name": "Linux",
-            "cStandard": "c11",
-            "intelliSenseMode": "gcc-x64",
-            "compileCommands": "${workspaceFolder}/compile_commands.json"
+            "cStandard": "c17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "compileCommands": "${workspaceFolder}/compile_commands.json",
+            "compilerPath": "/usr/bin/gcc-12"
         }
     ],
     "version": 4
